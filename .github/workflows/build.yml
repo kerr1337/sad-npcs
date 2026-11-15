@@ -23,7 +23,6 @@ jobs:
         with:
           distribution: temurin
           java-version: '25'
-          cache: gradle
 
       - name: Locate and extract source archive
         shell: bash
